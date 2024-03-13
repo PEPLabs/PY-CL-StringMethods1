@@ -48,11 +48,20 @@ def string_slicing(s, start, end):
 
 def concatenate_strings(string1, string2):
     """
-    Instead of returning the null string, this method should return the Concatenated string.
-    
-    :param string1: The first string.
-    :param string2: The second string.
-    :return: The concatenated string.
+    Instead of returning the null string, this method should
+    Concatenates two strings with a space in between.
+
+    Args:
+        string1 (str): The first string.
+        string2 (str): The second string.
+
+    Returns:
+        str: The concatenated string with a space in between.
+
+    Example:
+        string1: "Good"
+        string2: "morning"
+        return: "Good morning"
     """
     return ""
 
