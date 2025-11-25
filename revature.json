@@ -1,0 +1,55 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_get_string_length",
+          "label": "Verify get_string_length returns correct length",
+          "description": "Checks that get_string_length returns the correct length for various string inputs, including empty strings."
+        },
+        {
+          "methodName": "test_get_character_at_index",
+          "label": "Verify get_character_at_index returns character at index",
+          "description": "Ensures get_character_at_index returns the character at the specified index for multiple input strings."
+        },
+        {
+          "methodName": "test_get_index_given_character",
+          "label": "Verify get_index_given_character finds index or returns -1",
+          "description": "Validates that get_index_given_character returns the index of a character if present, or -1 if not found or invalid."
+        },
+        {
+          "methodName": "test_string_slicing",
+          "label": "Verify string_slicing extracts correct substring",
+          "description": "Checks that string_slicing returns the correct substring based on given start and end indices, including out-of-range scenarios."
+        },
+        {
+          "methodName": "test_concatenate_strings",
+          "label": "Verify concatenate_strings joins two strings with a space",
+          "description": "Ensures concatenate_strings correctly joins two input strings separated by a space."
+        },
+        {
+          "methodName": "test_repeat_string",
+          "label": "Verify repeat_string repeats string n times",
+          "description": "Confirms repeat_string returns the input string repeated the requested number of times."
+        },
+        {
+          "methodName": "test_string_length",
+          "label": "Verify string_length returns correct length",
+          "description": "Ensures string_length correctly calculates the length of various input strings."
+        },
+        {
+          "methodName": "test_convert_to_uppercase",
+          "label": "Verify convert_to_uppercase capitalizes string",
+          "description": "Checks that convert_to_uppercase converts all letters in the input string to uppercase."
+        },
+        {
+          "methodName": "test_convert_to_lowercase",
+          "label": "Verify convert_to_lowercase lowercases string",
+          "description": "Ensures convert_to_lowercase converts all letters in the input string to lowercase."
+        }
+      ]
+    }
+  ]
+}
